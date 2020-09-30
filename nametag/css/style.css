@@ -1,0 +1,116 @@
+#nametag-container {
+    width: 753px;
+    height: 468px;
+    background: #F5E9FF;
+    margin: 50px auto 0;
+    border: 30px transparent solid;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    transition: all .5s ease-out;
+    background-image: url(../images/heart.png);
+    background-position: center;   
+    background-repeat: no-repeat;
+}
+
+#nametag-container:hover {
+    background-color: #FFE6DE;
+    border-color: #FF4646;
+}
+
+#nametag-container:hover .circles-container span {
+    opacity: .5;
+    transform: translateY(20px);
+}
+
+
+h1,
+h2 {
+    text-align: center;
+    color: #FF4646;
+    font-family: 'Courier New';
+    font-weight: bold;
+    margin: 0;
+    line-height: 1.48;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h1 span {
+    transform: rotate(-30deg);
+    display: inline-block;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.vertically-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    border: 20px white solid;
+}
+
+.circles-container {
+    text-align: center;
+    margin-top: 14px;
+}
+
+.circles-container span {
+    width: 41px;
+    height: 41px;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 0 7px;
+    transition: all .5s ease-in;
+}
+
+.circles-container span:first-child {
+    background-color: #68FF80;
+    background-image: url(../images/face.png);
+    background-size: 120%;
+    background-position: center center;
+    transition-delay: 0;
+}
+
+.circles-container span:nth-child(2) {
+    background-color: #FFB84F;
+    transition-delay: .25s;
+}
+
+.circles-container span:nth-child(3) {
+    background-color: #E8A8FF;
+    transition-delay: .5s;
+}
+
+.big-circle {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 100%;
+    background: pink;
+    bottom: -240px;
+    left: -120px;
+}
+
+.big-circle-1,
+.big-circle-2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 100%;
+    background-color: green;
+    opacity: .5;
+    position: absolute;
+}
+
+.big-circle-1 {
+    left: 0;
+}
+
+.big-circle-2 {
+    right: 0;
+}
