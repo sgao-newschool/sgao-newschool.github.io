@@ -1,0 +1,27 @@
+/* Importing using a hosted font through google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Pacifico&display=swap');
+
+
+/* Embedding and hosting your own font file through @font-face */
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url('../fonts/NeueHaasGrotDisp-55Roman-Web.woff2') format('woff2'),
+        url('../font/NeueHaasGrotDisp-55Roman-Web.woff') format('woff');
+    font-weight: normal;
+}
+
+
+@font-face {
+    font-family: "Neue Haas Grotesk";
+    src: url('../fonts/NeueHaasGrotDisp-66MediumItalic-Web.woff2') format('woff2'),
+        url('NeueHaasGrotDisp-66MediumItalic-Web.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Treasure';
+    src: url('../fonts/Treasure-Regular.woff2') format('woff2'),
+        url('../fonts/Treasure-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

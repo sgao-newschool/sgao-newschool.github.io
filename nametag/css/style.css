@@ -28,7 +28,7 @@ h1,
 h2 {
     text-align: center;
     color: #FF4646;
-    font-family: 'Courier New';
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: bold;
     margin: 0;
     line-height: 1.48;
@@ -45,6 +45,9 @@ h1 span {
 
 h2 {
     font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
 .vertically-centered {
